@@ -24,6 +24,7 @@ pip install -r  requirements.txt
 ./manage.py import_xlsx_file --file ../data.xlsx
 ```
 где ../data.xlsx путь к вашему файлу с данными
+
 2. Запутить паука скачивать wildberries 
 ```
 ./manage.py scrapy runspider spiders/wildberries.py
